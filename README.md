@@ -2,7 +2,7 @@
 TecnoChile (Trabajo para Bootcamp) 
 
 # Github Pages
-Link para visitar: gabish19.github.io/Sprint_Modulo_5/
+Link para visitar: https://gabish19.github.io/Sprint_Modulo_5/
 
 # Integrantes
 Rodrigo Pequeño https://github.com/RochCX
