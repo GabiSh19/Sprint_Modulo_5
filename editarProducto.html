@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Editar Producto</title>
+		<link rel="stylesheet" href="estilos.css" />
+	</head>
+	<body>
+		<!-- nav -->
+		<header class="main-header">
+			<a href="./index.html"
+				><img
+					class="header__logo"
+					src="./img/techmarket-01.png"
+					width="250"
+					alt="Logo"
+			/></a>
+			<label for="btn-nav" class="btn-nav"
+				><i class="fi fi-br-menu-burger"></i
+			></label>
+			<input type="checkbox" id="btn-nav" />
+			<nav>
+				<ul class="navigation">
+					<li><a href="./index.html">Inicio</a></li>
+					<li><a href="./productos.html">Buscar</a></li>
+					<li><a href="./productos.html">Productos</a></li>
+					<li>
+						<a href="./agregarProducto.html">Agregar un producto</a>
+					</li>
+					<li><a href="./contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Inicio Breadcrumbs -->
+		<ul id="crumbs">
+			<li><a class="crumbs__item" href="./index.html">Inicio</a></li>
+			<li>
+				<a class="crumbs__item last" href="./editarProducto.html"
+					>Editar Producto</a
+				>
+			</li>
+		</ul>
+		<!-- Fin Breadcrumbs -->
+		<!-- form -->
+		<form action="" class="formulario">
+			<img src=" " alt="imgProducto" class="imgProductoP" />
+
+			<label for=""
+				>Nombre:
+				<input type="text" id="nomProd" />
+			</label>
+			<label for="">
+				Descripcion:
+				<input type="text" id="descProd" />
+			</label>
+			<label for=""
+				>Precio:
+				<input type="text" id="precProd" />
+			</label>
+			<label for=""
+				>Categoría:
+				<select
+					name="opciones"
+					id="catProd"
+					class="selectCat"
+					onchange="Valor_Cat_seleccionada()"></select>
+			</label>
+			<label for=""
+				>Stock
+				<input type="text" id="stockProd" />
+			</label>
+			<label for=""
+				>Imagen
+				<input type="text" id="linkProd" />
+			</label>
+			<label for=""
+				>Etiqueta
+				<input type="text" id="etiqProd" />
+			</label>
+
+			<button type="submit" class="btnEditProd">
+				Actualizar información
+			</button>
+			<a href="./productos.html" class="btnIraProductos"
+				>Cancelar y volver</a
+			>
+		</form>
+
+		<!-- Javascript -->
+		<script src="./js/editarProducto.js"></script>
+	</body>
+</html>
